@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+
+@theme {
+    /* This creates the 'primary' utility classes */
+    --color-primary: #5f6FFF;
+}
+
+.active hr{
+    @apply block;
+}
+
+::-webkit-scrollbar{
+    @apply hidden;
+}
